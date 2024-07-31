@@ -10,6 +10,7 @@ function App() {
          
           <Route index element={<Dashboard/>} /> 
           <Route path="product" element={<Product/>} />
+          
 
         </Route>
       </Routes>
