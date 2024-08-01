@@ -7,7 +7,16 @@ import { FaCartPlus } from "react-icons/fa6";
 
 function DashboardStartGrid() {
   return (
-    <div className="flex  w-full gap-4 ">
+
+
+    <div className="flex  gap-4  flex-row   w-[450px]  h-[13rem]    bg-white shadow-lg rounded-lg ">
+
+<div className="flex flex-col gap-2 w-full">
+
+
+  
+   
+
       <BoxWrapper>
         <div className="flex justify-center bg-sky-500 rounded-full  h-12 w-12 items-center ">
           <IoBagHandleSharp className="text-2xl text-white" />
@@ -34,6 +43,14 @@ function DashboardStartGrid() {
           </div>
         </div>
       </BoxWrapper>
+
+      </div>
+
+
+     <div  className="flex flex-col gap-2 w-full">
+      
+   
+
       <BoxWrapper>
       <div className="flex justify-center bg-sky-500 rounded-full  h-12 w-12 items-center ">
           <FaCartPlus  className="text-2xl text-white" />
@@ -55,7 +72,13 @@ function DashboardStartGrid() {
             <strong>500</strong>
             <span className="text-sm text-green-300 pl-2">+2</span>
           </div>
-        </div></BoxWrapper>
+        </div>
+        </BoxWrapper>
+
+
+        </div> 
+
+
     </div>
   );
 }

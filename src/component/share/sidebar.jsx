@@ -3,7 +3,7 @@ import { dashboardbottom ,lower_links } from "../../lib/constants/Navigaction";
 import { Link } from "react-router-dom";
 function sidebar() {
   return (
-    <div className=" bg-white w-72 p-3 flex flex-col shadow">
+    <div className=" bg-white w-72 p-3 flex flex-col shadow h-screen overflow-y-auto">
 
       <div className="flex items-center  py-6  -translate-y-1">
         <div className="size-8">
